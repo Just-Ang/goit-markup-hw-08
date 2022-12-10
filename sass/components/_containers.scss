@@ -1,0 +1,23 @@
+.container-header {
+  height: 60px;
+
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    align-items: center;
+    }
+  }
+
+
+  .footer-container {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    align-items: baseline;
+  }
+    }
+    
+
+
+  .form-container {
+    padding: 40px;
+  }
