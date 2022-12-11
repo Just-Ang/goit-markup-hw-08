@@ -6,6 +6,7 @@
     width: 100%;
     height: 100%;
     padding: 93px 15px;
+    overflow-y: scroll;
 
     background-color: rgba(0, 0, 0, 0.2);
     transition-property: opacity, visibility;
@@ -18,10 +19,16 @@
     visibility: hidden;
   }
   .modal {
+    position: relative;
     padding: 40px;
     background-color: var(--primary-white-color);
+    max-width: 528px;
+    width: 100%;
+
+    
 
     @media screen and (min-width: 1200px) {
+      padding: 40px;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -76,7 +83,8 @@
     color: var(--primary-text-color);
   }
   .user__personal-data {
-    width: 448px;
+    max-width: 370px;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -84,6 +92,9 @@
     padding-right: 12px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #000;
+    @media screen and (min-width: 1200px) {
+      width: 448px;
+    }
   }
   .user__personal-data:focus {
     outline: 0;
@@ -206,3 +217,7 @@
     background-color: var(--hover-button-color);
   }
   
+
+  body.modal-open {
+    overflow: hidden;
+  }
