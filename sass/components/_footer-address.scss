@@ -5,6 +5,12 @@
     padding-bottom: 60px;
   }
  
+  .address-block{
+    @media (min-width: 767px) and (max-width: 1199px){
+      margin-right: 178px;
+      margin-left: 75px;
+    }
+  }
   .footer__logo {
     display: block;
     color: var(--primary-white-color);
@@ -13,9 +19,8 @@
     font-size: 24px;
     line-height: calc(28/24);
     margin-bottom: 20px;
-    @media (max-width: 480px){
+    @media (max-width: 1199px){
       text-align: center;
-      
     }
     
 
@@ -31,7 +36,7 @@
   .address {
     font-style: normal;
 
-    @media (max-width: 480px){
+    @media (max-width: 11199px){
       text-align: center;
       margin-bottom: 60px;
     }

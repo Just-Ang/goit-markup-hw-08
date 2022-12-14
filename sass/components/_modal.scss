@@ -19,11 +19,12 @@
     visibility: hidden;
   }
   .modal {
-    position: relative;
+    position: absolute;
     padding: 40px;
     background-color: var(--primary-white-color);
-    max-width: 528px;
+    max-width: 450px;
     width: 100%;
+   
 
     
 
