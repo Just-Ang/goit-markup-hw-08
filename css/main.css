@@ -650,6 +650,7 @@ p {
   .agreement__input {
     font-size: 14px;
     line-height: 1.71;
+    max-width: 346px;
   }
 }
 
