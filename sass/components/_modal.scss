@@ -159,12 +159,16 @@
   .agreement__input {
     display: inline-block;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: calc(14/12);
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin-left: 9px;
-  }
+    @media (min-width: 1200px) {
+      font-size: 14px;
+    line-height: 1.71;
+    }}
+
   .agreement__link {
     color: var(--accent-color);
   }

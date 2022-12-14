@@ -19,12 +19,29 @@
   flex-wrap: wrap;
   @media screen and (min-width: 1200px) {
     display: flex;
-    gap: 30px;
+
   }
 }
 .clients__item {
-  width: calc((100% - 60px)/2);
-  margin-bottom: 30px;
+  @media screen and (max-width: 480px) {
+    width: calc((100% - 30px)/2);
+  }
+ 
+
+}
+
+.clients__item:nth-child(-n + 4) {
+  @media screen and (max-width: 480px) {
+    margin-bottom: 30px;
+  }
+ 
+}
+
+.clients__item:nth-child(2n) {
+  @media screen and (max-width: 480px) {
+    margin-left: auto;
+  }
+  
 }
 .clients__links {
   display: flex;
