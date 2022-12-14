@@ -757,6 +757,12 @@ body.modal-open {
   padding: 25px 190px;
   margin-bottom: 30px;
 }
+@media (max-width: 480px) {
+  .features__icon {
+    max-width: 450px;
+    width: 100%;
+  }
+}
 @media screen and (min-width: 1200px) {
   .features__icon {
     display: -webkit-box;
