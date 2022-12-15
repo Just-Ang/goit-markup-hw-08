@@ -1595,8 +1595,8 @@ body.modal-open {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     background-color: #fff;
     padding: 48px 40px;
     overflow-y: scroll;
