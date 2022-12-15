@@ -454,13 +454,15 @@ p {
   background-color: var(--primary-white-color);
   max-width: 450px;
   width: 100%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 @media screen and (min-width: 1200px) {
   .modal {
     padding: 40px;
     position: absolute;
-    top: 50%;
-    left: 50%;
     width: 528px;
     height: 581px;
     -webkit-transform: translate(-50%, -50%) scaleX(1);
