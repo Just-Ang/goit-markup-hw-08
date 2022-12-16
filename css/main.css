@@ -714,7 +714,6 @@ p {
 }
 
 .agreement__img {
-  position: absolute;
   top: 0px;
   left: 0px;
   display: -webkit-box;
@@ -1724,7 +1723,7 @@ body.modal-open {
 }
 
 @media screen and (max-width: 767px) {
-  .soc-list__item {
+  .soc-list__link {
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
